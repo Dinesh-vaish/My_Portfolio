@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dinesh Kumar | Web Developer Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-logo">Dinesh<span>.Traders</span></div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger">
+      <i class="fas fa-bars"></i>
+    </button>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <p class="hero-greeting">Hello, I'm</p>
+      <h1 class="hero-name">Dinesh Kumar </h1>
+      <h2 class="hero-title">Full Stack Web Developer</h2>
+      <p class="hero-desc">I build fast, beautiful, and accessible web experiences using modern technologies. Turning ideas into reality, one line of code at a time.</p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-outline">Hire Me</a>
+      </div>
+      <div class="hero-socials">
+        <a href="https://github.com/Dinesh-vaish" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/dineshvaish-kumar2005-d-i-n-e-s-h/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+    <div class="hero-image">
+      <div class="avatar-ring">
+        <div class="avatar">
+          <img src="profile.png" alt="Dinesh Kumar" />
+        </div>
+      </div>
+      <div class="floating-badge badge-1"><i class="fab fa-react"></i> React</div>
+      <div class="floating-badge badge-2"><i class="fab fa-node-js"></i> Node.js</div>
+      <div class="floating-badge badge-3"><i class="fab fa-js"></i> JavaScript</div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="container">
+      <h2 class="section-title">About <span>Me</span></h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>I'm a passionate full-stack web developer with <strong>3+ years of experience</strong> building modern web applications. I love crafting clean, efficient code and creating seamless user experiences.</p>
+          <p>When I'm not coding, you'll find me exploring new technologies, contributing to open source, or sharing knowledge with the developer community.</p>
+          <div class="about-stats">
+            <div class="stat">
+              <span class="stat-num">30+</span>
+              <span class="stat-label">Projects Done</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">15+</span>
+              <span class="stat-label">Happy Clients</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">3+</span>
+              <span class="stat-label">Years Exp.</span>
+            </div>
+          </div>
+          <a href="#" class="btn btn-primary" download>
+            <i class="fas fa-download"></i> Download CV
+          </a>
+        </div>
+        <div class="about-cards">
+          <div class="info-card">
+            <i class="fas fa-code"></i>
+            <h3>Frontend Dev</h3>
+            <p>React, Vue, HTML/CSS, Tailwind, animations & responsive design.</p>
+          </div>
+          <div class="info-card">
+            <i class="fas fa-server"></i>
+            <h3>Backend Dev</h3>
+            <p>Node.js, Express, REST APIs, databases & authentication.</p>
+          </div>
+          <div class="info-card">
+            <i class="fas fa-mobile-alt"></i>
+            <h3>Responsive Design</h3>
+            <p>Mobile-first, pixel-perfect layouts across all devices.</p>
+          </div>
+          <div class="info-card">
+            <i class="fas fa-rocket"></i>
+            <h3>Performance</h3>
+            <p>Optimized, fast-loading apps with great Lighthouse scores.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="skills" id="skills">
+    <div class="container">
+      <h2 class="section-title">My <span>Skills</span></h2>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h3>Frontend</h3>
+          <div class="skill-items">
+            <div class="skill-item"><i class="fab fa-html5"></i><span>HTML5</span></div>
+            <div class="skill-item"><i class="fab fa-css3-alt"></i><span>CSS3</span></div>
+            <div class="skill-item"><i class="fab fa-js"></i><span>JavaScript</span></div>
+            <div class="skill-item"><i class="fab fa-react"></i><span>React</span></div>
+            <div class="skill-item"><i class="fab fa-vuejs"></i><span>Vue.js</span></div>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3>Backend</h3>
+          <div class="skill-items">
+            <div class="skill-item"><i class="fab fa-node-js"></i><span>Node.js</span></div>
+            <div class="skill-item"><i class="fas fa-database"></i><span>MongoDB</span></div>
+            <div class="skill-item"><i class="fas fa-database"></i><span>PostgreSQL</span></div>
+            <div class="skill-item"><i class="fas fa-fire"></i><span>Firebase</span></div>
+            <div class="skill-item"><i class="fas fa-plug"></i><span>REST APIs</span></div>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3>Tools</h3>
+          <div class="skill-items">
+            <div class="skill-item"><i class="fab fa-git-alt"></i><span>Git</span></div>
+            <div class="skill-item"><i class="fab fa-github"></i><span>GitHub</span></div>
+            <div class="skill-item"><i class="fab fa-docker"></i><span>Docker</span></div>
+            <div class="skill-item"><i class="fab fa-figma"></i><span>Figma</span></div>
+            <div class="skill-item"><i class="fas fa-terminal"></i><span>Linux</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CUSTOM CURSOR -->
+  <div class="cursor-dot" id="cursorDot"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- PROJECTS -->
+  <section class="projects" id="projects">
+    <div class="container">
+      <h2 class="section-title">My <span>Project</span></h2>
+
+      <!-- Project Preview Card -->
+      <div class="proj-preview-card">
+        <div class="proj-preview-left">
+          <div class="proj-preview-icon"><i class="fas fa-brain"></i></div>
+          <div>
+            <span class="pd-badge">Production-Ready SaaS</span>
+            <h3>AI-Based Hyperlocal Smart Discovery System</h3>
+            <p>AI-powered platform for intelligent hyperlocal business discovery using behavior-driven ranking and geospatial intelligence.</p>
+            <div class="proj-preview-tags">
+              <span>React</span><span>FastAPI</span><span>MongoDB</span><span>WebSocket</span><span>ML Ranking</span>
+            </div>
+          </div>
+        </div>
+        <div class="proj-preview-right">
+          <div class="proj-metrics-mini">
+            <div><strong>25+</strong><span>REST APIs</span></div>
+            <div><strong>5</strong><span>ML Factors</span></div>
+            <div><strong>Real-time</strong><span>WebSocket</span></div>
+          </div>
+          <!-- MAGNETIC BUTTON -->
+          <button class="magnetic-btn" id="openModalBtn" data-modal="projectModal">
+            <span class="magnetic-btn-inner">
+              <span class="btn-text">Click Here For More Details</span>
+              <span class="btn-arrow">
+                <i class="fas fa-arrow-right"></i>
+              </span>
+            </span>
+            <span class="btn-underline"></span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECT MODAL -->
+  <div class="modal-overlay" id="projectModal">
+    <div class="modal-box" id="modalBox">
+      <!-- Close Button -->
+      <button class="modal-close" id="modalClose"><i class="fas fa-times"></i></button>
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <div class="modal-header-icon"><i class="fas fa-brain"></i></div>
+        <div>
+          <span class="pd-badge">Production-Ready SaaS</span>
+          <h2>AI-Based Hyperlocal Smart Discovery System</h2>
+          <p>AI-powered platform for intelligent hyperlocal business discovery using behavior-driven ranking and geospatial intelligence.</p>
+          <a href="https://frontend-live-sxro.onrender.com" target="_blank" class="btn btn-primary">
+            <i class="fas fa-external-link-alt"></i> View Live Project
+          </a>
+        </div>
+      </div>
+
+      <div class="modal-body">
+
+        <!-- Problem -->
+        <div class="modal-section">
+          <h3><i class="fas fa-exclamation-circle"></i> Problem Statement</h3>
+          <p>Traditional local discovery platforms prioritize <strong>advertisements over relevance</strong>. This project introduces a <strong>behavior-driven ranking system</strong> powered by AI and geospatial intelligence — giving users truly relevant, nearby results in real time.</p>
+        </div>
+
+        <!-- Features -->
+        <div class="modal-section">
+          <h3><i class="fas fa-star"></i> Key Features</h3>
+          <div class="pd-features-grid">
+            <div class="pd-feature"><i class="fas fa-robot"></i> Smart ML Ranking</div>
+            <div class="pd-feature"><i class="fas fa-bolt"></i> Real-Time Updates</div>
+            <div class="pd-feature"><i class="fas fa-map-marker-alt"></i> Geospatial Search</div>
+            <div class="pd-feature"><i class="fas fa-lock"></i> JWT Authentication</div>
+            <div class="pd-feature"><i class="fas fa-tachometer-alt"></i> Admin Dashboard</div>
+            <div class="pd-feature"><i class="fas fa-fire"></i> Heatmaps & Analytics</div>
+            <div class="pd-feature"><i class="fas fa-plug"></i> WebSocket Notifications</div>
+            <div class="pd-feature"><i class="fas fa-circle-notch"></i> Radius-Based Filtering</div>
+          </div>
+        </div>
+
+        <!-- Metrics -->
+        <div class="modal-section">
+          <h3><i class="fas fa-chart-bar"></i> Metrics</h3>
+          <div class="pd-metrics">
+            <div class="pd-metric"><span>25+</span><p>REST APIs</p></div>
+            <div class="pd-metric"><span>5</span><p>ML Factors</p></div>
+            <div class="pd-metric"><span>⚡</span><p>Real-time WS</p></div>
+            <div class="pd-metric"><span>2D</span><p>Geo Index</p></div>
+            <div class="pd-metric"><span>🔐</span><p>Role Auth</p></div>
+          </div>
+        </div>
+
+        <!-- Architecture -->
+        <div class="modal-section">
+          <h3><i class="fas fa-sitemap"></i> System Architecture</h3>
+          <div class="pd-arch">
+            <div class="arch-step"><i class="fab fa-react"></i> React Frontend</div>
+            <div class="arch-arrow"><i class="fas fa-arrow-down"></i></div>
+            <div class="arch-step"><i class="fas fa-server"></i> FastAPI Backend</div>
+            <div class="arch-arrow"><i class="fas fa-arrow-down"></i></div>
+            <div class="arch-step"><i class="fas fa-database"></i> MongoDB Atlas</div>
+            <div class="arch-arrow"><i class="fas fa-arrow-down"></i></div>
+            <div class="arch-step"><i class="fas fa-brain"></i> ML Ranking Engine</div>
+            <div class="arch-arrow"><i class="fas fa-arrow-down"></i></div>
+            <div class="arch-step"><i class="fas fa-plug"></i> WebSocket Layer</div>
+          </div>
+        </div>
+
+        <!-- ML Formula -->
+        <div class="modal-section">
+          <h3><i class="fas fa-flask"></i> ML Ranking Formula <span class="gold-badge">Gold Feature</span></h3>
+          <div class="pd-formula">
+            <code>Score = (0.30 × D<sub>n</sub>) + (0.20 × R<sub>n</sub>) + (0.20 × C<sub>n</sub>) + (0.15 × E<sub>n</sub>) + (0.15 × A<sub>n</sub>)</code>
+          </div>
+          <div class="pd-formula-legend">
+            <span><strong>D<sub>n</sub></strong> Distance Score</span>
+            <span><strong>R<sub>n</sub></strong> Review Score</span>
+            <span><strong>C<sub>n</sub></strong> CTR</span>
+            <span><strong>E<sub>n</sub></strong> Engagement</span>
+            <span><strong>A<sub>n</sub></strong> Activity</span>
+          </div>
+        </div>
+
+        <!-- Contributions -->
+        <div class="modal-section">
+          <h3><i class="fas fa-user-cog"></i> My Contribution — <span style="color:var(--primary)">Backend ML Engineer</span></h3>
+          <div class="pd-contributions">
+            <div class="pd-contrib"><i class="fas fa-check-circle"></i> FastAPI Backend Development</div>
+            <div class="pd-contrib"><i class="fas fa-check-circle"></i> 25+ REST API Design & Implementation</div>
+            <div class="pd-contrib"><i class="fas fa-check-circle"></i> JWT Authentication System</div>
+            <div class="pd-contrib"><i class="fas fa-check-circle"></i> ML Ranking Algorithm</div>
+            <div class="pd-contrib"><i class="fas fa-check-circle"></i> WebSocket Implementation</div>
+            <div class="pd-contrib"><i class="fas fa-check-circle"></i> Interaction Tracking System</div>
+          </div>
+        </div>
+
+        <!-- Challenges -->
+        <div class="modal-section">
+          <h3><i class="fas fa-mountain"></i> Challenges Faced</h3>
+          <div class="pd-challenges">
+            <div class="pd-challenge"><i class="fas fa-angle-right"></i> Optimizing geospatial queries for low-latency results</div>
+            <div class="pd-challenge"><i class="fas fa-angle-right"></i> Managing WebSocket synchronization at scale</div>
+            <div class="pd-challenge"><i class="fas fa-angle-right"></i> Designing weighted ML ranking logic</div>
+            <div class="pd-challenge"><i class="fas fa-angle-right"></i> Real-time analytics handling without performance drop</div>
+            <div class="pd-challenge"><i class="fas fa-angle-right"></i> Performance optimization across the full stack</div>
+          </div>
+        </div>
+
+        <!-- Tags -->
+        <div class="modal-section">
+          <h3><i class="fas fa-tags"></i> Tech Stack & Keywords</h3>
+          <div class="pd-tags">
+            <span>React</span><span>FastAPI</span><span>MongoDB Atlas</span>
+            <span>WebSocket</span><span>JWT Auth</span><span>ML Ranking</span>
+            <span>Geospatial Search</span><span>SaaS Architecture</span>
+            <span>Admin Dashboard</span><span>REST APIs</span>
+            <span>Scalable Architecture</span><span>Analytics Engine</span>
+            <span>System Design</span><span>2dsphere Index</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <h2 class="section-title">Get In <span>Touch</span></h2>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h3>Let's work together!</h3>
+          <p>Have a project in mind or want to collaborate? I'd love to hear from you. Drop me a message and I'll get back to you within 24 hours.</p>
+          <div class="contact-details">
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <span>dineshvaishya210@gmail.com</span>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-phone"></i>
+              <span>+91 8817412784</span>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>India</span>
+            </div>
+          </div>
+          <div class="contact-socials">
+            <a href="https://github.com/Dinesh-vaish" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/dineshvaish-kumar2005-d-i-n-e-s-h/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" aria-label="CodePen"><i class="fab fa-codepen"></i></a>
+          </div>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <div class="form-group">
+            <input type="text" id="name" placeholder="Your Name" required />
+          </div>
+          <div class="form-group">
+            <input type="email" id="email" placeholder="Your Email" required />
+          </div>
+          <div class="form-group">
+            <input type="text" id="subject" placeholder="Subject" />
+          </div>
+          <div class="form-group">
+            <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">
+            <i class="fas fa-paper-plane"></i> Send Message
+          </button>
+          <p class="form-success" id="formSuccess"> Message sent! I'll get back to you soon.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>Designed & Built by <span>Dinesh Kumar Vaishay</span> &copy; 2026</p>
+    <a href="#home" class="back-to-top" aria-label="Back to top"><i class="fas fa-arrow-up"></i></a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
