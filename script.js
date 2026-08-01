@@ -139,51 +139,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   });
 });
 
-// ===== CUSTOM CURSOR =====
-const cursorDot  = document.getElementById('cursorDot');
-const cursorRing = document.getElementById('cursorRing');
-
-let mouseX = 0, mouseY = 0;
-let ringX  = 0, ringY  = 0;
-
-window.addEventListener('mousemove', (e) => {
-  mouseX = e.clientX;
-  mouseY = e.clientY;
-  cursorDot.style.left = mouseX + 'px';
-  cursorDot.style.top  = mouseY + 'px';
-});
-
-// Smooth ring follow
-function animateRing() {
-  ringX += (mouseX - ringX) * 0.12;
-  ringY += (mouseY - ringY) * 0.12;
-  cursorRing.style.left = ringX + 'px';
-  cursorRing.style.top  = ringY + 'px';
-  requestAnimationFrame(animateRing);
-}
-animateRing();
-
-// Hover glow on interactive elements
-const hoverTargets = document.querySelectorAll('a, button, .info-card, .skill-item, .pd-feature, .proj-preview-card, .magnetic-btn');
-hoverTargets.forEach(el => {
-  el.addEventListener('mouseenter', () => cursorRing.classList.add('hovering'));
-  el.addEventListener('mouseleave', () => cursorRing.classList.remove('hovering'));
-});
-
-// Click pulse
-window.addEventListener('mousedown', () => cursorDot.classList.add('clicking'));
-window.addEventListener('mouseup',   () => cursorDot.classList.remove('clicking'));
-
-// Hide cursor when leaving window
-document.addEventListener('mouseleave', () => {
-  cursorDot.style.opacity  = '0';
-  cursorRing.style.opacity = '0';
-});
-document.addEventListener('mouseenter', () => {
-  cursorDot.style.opacity  = '1';
-  cursorRing.style.opacity = '1';
-});
-
 // ===== MAGNETIC BUTTON =====
 const magneticBtn = document.getElementById('openModalBtn');
 
@@ -200,12 +155,10 @@ if (magneticBtn) {
   magneticBtn.addEventListener('mouseleave', () => {
     magneticBtn.style.transform = 'translate(0, 0)';
     magneticBtn.style.transition = 'transform 0.5s cubic-bezier(0.34, 1.56, 0.64, 1)';
-    cursorRing.classList.remove('hovering');
   });
 
   magneticBtn.addEventListener('mouseenter', () => {
     magneticBtn.style.transition = 'transform 0.1s ease';
-    cursorRing.classList.add('hovering');
   });
 }
 

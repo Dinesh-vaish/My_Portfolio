@@ -1034,43 +1034,6 @@ img { max-width: 100%; }
   .pd-formula code { font-size: 0.82rem; }
 }
 
-/* ===== CUSTOM CURSOR ===== */
-* { cursor: none !important; }
-
-.cursor-dot {
-  width: 8px; height: 8px;
-  background: var(--primary);
-  border-radius: 50%;
-  position: fixed;
-  top: 0; left: 0;
-  pointer-events: none;
-  z-index: 99999;
-  transform: translate(-50%, -50%);
-  transition: transform 0.1s, background 0.2s, width 0.2s, height 0.2s;
-}
-
-.cursor-ring {
-  width: 36px; height: 36px;
-  border: 2px solid rgba(108,99,255,0.6);
-  border-radius: 50%;
-  position: fixed;
-  top: 0; left: 0;
-  pointer-events: none;
-  z-index: 99998;
-  transform: translate(-50%, -50%);
-  transition: transform 0.12s ease, width 0.3s, height 0.3s, border-color 0.3s, background 0.3s;
-}
-
-.cursor-ring.hovering {
-  width: 56px; height: 56px;
-  border-color: var(--primary);
-  background: rgba(108,99,255,0.08);
-}
-
-.cursor-dot.clicking {
-  width: 12px; height: 12px;
-  background: var(--secondary);
-}
 
 /* ===== PROJECT PREVIEW CARD ===== */
 .proj-preview-card {
