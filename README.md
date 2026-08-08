@@ -2,13 +2,7 @@
 
 link - https://dinesh-vaish.github.io/My_Portfolio/
 
-![Portfolio](https://dinesh-vaish.github.io/My_Portfolio/)             ![Status](https://img.shields.io/badge/Status-Live-green?style=for-the-badge)            ![License](https://img.shields.io/badge/License-Avadhesh-yellow?style=for-the-badge)
-
-<div align="center">
-  <img src="https://via.placeholder.com/1600x800?text=My+Portfolio" alt="Portfolio Banner" width="600"/>
-</div>
-
----
+![Portfolio](https://dinesh-vaish.github.io/My_Portfolio/)            
 
 ## 🌟 Welcome to My  Portfolio! 🎉
 
