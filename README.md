@@ -1,8 +1,10 @@
 # 🌟💼 My Portfolio 🌐✨
 
-link - https://dinesh-vaish.github.io/My_Portfolio/
+link - [https://dinesh-vaish.github.io/My\_Portfolio/](https://dinesh-vaish.github.io/My_Portfolio/)
 
-![Portfolio](https://dinesh-vaish.github.io/My_Portfolio/)            
+                         
+
+---
 
 ## 🌟 Welcome to My  Portfolio! 🎉
 
@@ -11,6 +13,7 @@ Explore my projects, skills, and professional journey. Connect with me to collab
 ---
 
 ### 🖥️ About Me
+
 Hi, I'm [Dinesh Kumar Bais], a passionate developer with expertise in web development, Data Engineering, and software engineering. I love creating innovative solutions and bringing ideas to life through code.
 
 ---
@@ -19,23 +22,23 @@ Hi, I'm [Dinesh Kumar Bais], a passionate developer with expertise in web develo
 
 - **Project 1**: [Awesome Project](https://github.com/Dinesh-vaish/Ngo-management-system)
   - 🌟 **Highlights**:
-  - 
+  -
 - **Project 2**: [Another Cool Project](https://github.com/Dinesh-vaish/AI-Based-Hyperlocal-Smart-Discovery-System)
   - 🌟 **Highlights**:
-  - 
+  -
 - **Project 3**: [Yet Another Project](https://github.com/Dinesh-vaish/ecommerce-etl-pipeline)
-  - 🌟 **Highlights**: 
+  - 🌟 **Highlights**:
+
 ---
 
 ### 🛠️ Skills
+
 - **Languages**: Python, JavaScript, Node.js, SQL,
 - **Frameworks**: Pandas,Numpy,
 - **Tools**: Git, VS Code, PgAdmin4
 
-
 ### 🌐 Connect with Me
-- **Website**: [https://dinesh-vaish.github.io/My_Portfolio/)
-- **LinkedIn**: [https://www.linkedin.com/in/dineshvaish-kumar2005-d-i-n-e-s-h/)
-- **GitHub**: [https://github.com/Dinesh-vaish)
 
-
+- **Website**: [[https://dinesh-vaish.github.io/My\_Portfolio/](https://dinesh-vaish.github.io/My_Portfolio/))
+- **LinkedIn**: [[https://www.linkedin.com/in/dineshvaish-kumar2005-d-i-n-e-s-h/](https://www.linkedin.com/in/dineshvaish-kumar2005-d-i-n-e-s-h/))
+- **GitHub**: [https\://github.com/Dinesh-vaish)   
